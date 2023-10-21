@@ -1,1 +1,91 @@
-# my_first_me
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курс</title>
+    <style>
+        body{ 
+            background: black;
+        }
+        .color_blue {
+            color: blue
+        }
+        .color_red {
+            color: red
+        }
+        #yallow {
+            color:#FFF010;
+        }
+        tr:hover{
+            background-color: purple;
+        }
+        th{
+            color: gray;
+            font-size: 14px;
+        }
+        td{
+            color: khaki;
+        }
+        /* не посещенная ссылка */
+        a:link{
+            color: red;
+        }
+        /* посещенная ссылка */
+        a:visited{
+            color: green;
+        }
+        h1{
+            color: white;
+        }
+    </style>   
+</head>
+<body>
+   <div>
+<div class="color_red" style="font-size: 18px ;">
+    <span class="color_blue">Синий</span>
+    <span id="yallow">Желтый</span>
+</div>
+<table>
+    <caption>Футбол</caption>
+    <thead>
+        <tr>
+            <th>Матчи</th>
+            <th>Победа</th>
+            <th>Ничья</th>
+            <th>Проигрыш</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Танос</td>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr> 
+        <tr>
+            <td>Ракета</td>
+            <th>5</th>
+            <th>4</th>
+            <th>3</th>
+            <th>2</th>
+            <th>1</th>
+        </tr>
+        <tr>
+            <td>Гамора</td>
+            <th>4</th>
+            <th>5</th>
+            <th>3</th>
+            <th>1</th>
+            <th>2</th>
+        </tr> 
+    </tbody>
+</table>
+<h1>Заголовок</h1>
+<p><a href="img/gamora1.jpeg">Посмотрите на фотографию</a></p>
+<p><a href="https://my_site.com">Посетите сайт</a></p>
+</body>
+</html>
